@@ -6,5 +6,6 @@ public class Main {
         VacationService service = new VacationService();
         int result = service.calcWork(3_000, 10_000, 20_000);
 
-        System.out.println(result);    }
+        System.out.println(result);
+    }
 }
