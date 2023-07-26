@@ -30,7 +30,7 @@ class VacationServiceTest {
     @ParameterizedTest
     @CsvSource({
             "3000, 10000, 20000, 3",
-            "60000,100000,150000,2"
+            "60000, 100000, 150000, 2"
     })
     public void testData3(int expense, int income, int threshold, int expected) {
         VacationService service = new VacationService();
