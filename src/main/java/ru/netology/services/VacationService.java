@@ -7,7 +7,7 @@ public class VacationService {
 
         for (int month = 0; month < 12; month++) {
             if (money >= threshold) {
-                money = (threshold - expense) / 3*2;  //отдыхаем
+                money = (threshold - expense) / 3;  //отдыхаем
                 court++;
 
             } else {
